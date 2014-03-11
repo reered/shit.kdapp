@@ -1,0 +1,39 @@
+{
+  "experimental": false,
+  "background": false,
+  "hiddenHandle": false,
+  "forceUpdate": false,
+  "behavior": "application",
+  "version": "0.1",
+  "title": "Shit",
+  "name": "Shit",
+  "identifier": "com.koding.apps.shit",
+  "path": "~/Applications/Shit.kdapp",
+  "homepage": "gokmen.localhost/shit",
+  "author": "Gokmen Göksel",
+  "authorNick": "gokmen",
+  "repository": "git://github.com/gokmen/shit.kdapp.git",
+  "description": "Shit : THIS IS WHAT IT IS.",
+  "category": "web-app",
+  "source": {
+    "blocks": {
+      "app": {
+        "files": [
+          "./index.coffee"
+        ]
+      }
+    },
+    "stylesheets": [
+      "./resources/style.css"
+    ]
+  },
+  "options": {
+    "type": "tab"
+  },
+  "icns": {
+    "128": "./resources/icon.128.png"
+  },
+  "screenshots": [],
+  "menu": [],
+  "fileTypes": []
+}
